@@ -1,0 +1,16 @@
+[15:53:36][PluginLoader][INFO] No plugins found.
+[15:53:36][NATTCore][INFO] NATT CORE initialization done
+Version: 1.7.0 
+Configuration path: https://gitlab.com/ap5vs/test-config/telnet-client-config/-/raw/main/test-config-2.yaml?ref_type=heads
+Configuration loading mode: FROM URL
+[15:53:36][NATTCore][INFO] Working directory path: C:\Users\Dan\Documents\MEGA\Škola\FAI UTB\Tretak\Vyvoj_sitovych_aplikaci\3_Hodina\Telnet_klient
+[15:53:36][NATTCore][INFO] Start loading of the configuration file ...
+[15:53:36][NetworkIO][INFO] Yaml data has been loaded from network location (https://gitlab.com/ap5vs/test-config/telnet-client-config/-/raw/main/test-config-2.yaml?ref_type=heads)
+[15:53:36][NATTCore][INFO] Configuration loading done
+[15:53:36][NATTCore][INFO] Start building test structure according to the configuration ...
+[15:53:36][NATTCore][INFO] Test structure ...
+[15:53:37][NATTCore][INFO] Test structure building done
+[15:53:37][NATTCore][INFO] Start test executing ...
+[15:53:37][TestReportGenerator][INFO] Extenet reports generated. Final report will be saved to file: test_report.html
+[15:53:37][NATTCore][INFO] Starts execution on the root keyword  ...
+[15:53:37][MessageBuffer][INFO] Message buffer created for module with name: tel-server-1

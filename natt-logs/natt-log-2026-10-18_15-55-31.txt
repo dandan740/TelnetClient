@@ -1,0 +1,106 @@
+[15:55:31][PluginLoader][INFO] No plugins found.
+[15:55:31][NATTCore][INFO] NATT CORE initialization done
+Version: 1.7.0 
+Configuration path: https://gitlab.com/ap5vs/test-config/telnet-client-config/-/raw/main/test-config-2.yaml?ref_type=heads
+Configuration loading mode: FROM URL
+[15:55:31][NATTCore][INFO] Working directory path: C:\Users\Dan\Documents\MEGA\�kola\FAI UTB\Tretak\Vyvoj_sitovych_aplikaci\3_Hodina\Telnet_klient
+[15:55:31][NATTCore][INFO] Start loading of the configuration file ...
+[15:55:32][NetworkIO][INFO] Yaml data has been loaded from network location (https://gitlab.com/ap5vs/test-config/telnet-client-config/-/raw/main/test-config-2.yaml?ref_type=heads)
+[15:55:32][NATTCore][INFO] Configuration loading done
+[15:55:32][NATTCore][INFO] Start building test structure according to the configuration ...
+[15:55:32][NATTCore][INFO] Test structure ...
+[15:55:32][NATTCore][INFO] Test structure building done
+[15:55:32][NATTCore][INFO] Start test executing ...
+[15:55:32][TestReportGenerator][INFO] Extenet reports generated. Final report will be saved to file: test_report.html
+[15:55:32][NATTCore][INFO] Starts execution on the root keyword  ...
+[15:55:32][MessageBuffer][INFO] Message buffer created for module with name: tel-server-1
+[15:55:32][TelnetServer][INFO] (tel-server-1) Server socket is listening on port 9999
+[15:55:32][MessageBuffer][INFO] Message buffer created for module with name: default
+[15:55:32][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar app/build/libs/app.jar localhost 9999
+[15:55:32][ProcessManager][INFO] New PID (17392) added to file
+[15:55:32][WaitKw][INFO] Waiting: 200 ms
+[15:55:32][ProcessManager][INFO] PID (17392) removed from file
+[15:55:32][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[15:55:32][ExternalProgramRunner][WARNING] (default) Error message from external application: Error: Unable to access jarfile app/build/libs/app.jar
+
+[15:55:32][TestSuiteKw][INFO] Test case 'Test odeslání zprávy 1' starts executing now
+[15:55:32][ExternalProgramRunner][WARNING] (default) Failed to send data. External app is not running now!
+[15:55:32][WaitKw][INFO] Waiting: 500 ms
+[15:55:33][ExternalProgramRunner][WARNING] (default) Failed to send data. External app is not running now!
+[15:55:33][WaitKw][INFO] Waiting: 1200 ms
+[15:55:34][NATTContext][INFO] Data has been stored in to the variable 'var-1'. Data value: 
+[15:55:34][NATTContext][INFO] Data has been stored in to the variable 'var-2'. Data value: 
+[15:55:34][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable '' must equals expected text 'This is test message 1')
+[15:55:34][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable '' must equals expected text 'Next test message')
+[15:55:34][TestSuiteKw][ERROR] Test suite 'Testování odesílání zpráv' - Test case 'Test odeslání zprávy 1' failed
+[15:55:34][MessageBuffer][INFO] Message buffer cleared
+[15:55:35][TestSuiteKw][INFO] Test case 'Test odeslání zprávy 2' starts executing now
+[15:55:35][ExternalProgramRunner][WARNING] (default) Failed to send data. External app is not running now!
+[15:55:35][ExternalProgramRunner][WARNING] (default) Failed to send data. External app is not running now!
+[15:55:35][ExternalProgramRunner][WARNING] (default) Failed to send data. External app is not running now!
+[15:55:35][ExternalProgramRunner][WARNING] (default) Failed to send data. External app is not running now!
+[15:55:35][ExternalProgramRunner][WARNING] (default) Failed to send data. External app is not running now!
+[15:55:35][WaitKw][INFO] Waiting: 1200 ms
+[15:55:36][NATTContext][INFO] Data has been stored in to the variable 'var-1'. Data value: 
+[15:55:36][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable '' must equals expected text 'This is test message 3')
+[15:55:36][NATTContext][INFO] Data has been stored in to the variable 'var-2'. Data value: 0
+[15:55:36][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Expected value '5,000000' must be same as the value of the variable '0')
+[15:55:36][TestSuiteKw][ERROR] Test suite 'Testování odesílání zpráv' - Test case 'Test odeslání zprávy 2' failed
+[15:55:36][MessageBuffer][INFO] Message buffer cleared
+[15:55:37][TestSuiteKw][INFO] Test case 'Test odeslání zprávy 3' starts executing now
+[15:55:37][ExternalProgramRunner][WARNING] (default) Failed to send data. External app is not running now!
+[15:55:37][ExternalProgramRunner][WARNING] (default) Failed to send data. External app is not running now!
+[15:55:37][ExternalProgramRunner][WARNING] (default) Failed to send data. External app is not running now!
+[15:55:37][WaitKw][INFO] Waiting: 1200 ms
+[15:55:38][NATTContext][INFO] Data has been stored in to the variable 'var-1'. Data value: 
+[15:55:38][TestSuiteKw][ERROR] Test suite 'Testování odesílání zpráv' - Test case 'Test odeslání zprávy 3' failed
+[15:55:38][MessageBuffer][INFO] Message buffer cleared
+[15:55:39][MessageBuffer][INFO] Message buffer cleared
+[15:55:39][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar app/build/libs/app.jar localhost 9999
+[15:55:39][ProcessManager][INFO] New PID (12360) added to file
+[15:55:39][WaitKw][INFO] Waiting: 200 ms
+[15:55:39][ProcessManager][INFO] PID (12360) removed from file
+[15:55:39][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[15:55:39][ExternalProgramRunner][WARNING] (default) Error message from external application: Error: Unable to access jarfile app/build/libs/app.jar
+
+[15:55:39][TestSuiteKw][INFO] Test case 'Test přijímání zpráv 1' starts executing now
+[15:55:39][TelnetServer][INFO] (tel-server-1) Message send: This is message from server
+[15:55:39][WaitKw][INFO] Waiting: 1200 ms
+[15:55:40][NATTContext][INFO] Data has been stored in to the variable 'var-1'. Data value: 
+[15:55:40][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable '' must equals expected text 'This is message from server')
+[15:55:40][TestSuiteKw][ERROR] Test suite 'Testování přijímání zpráv' - Test case 'Test přijímání zpráv 1' failed
+[15:55:40][MessageBuffer][INFO] Message buffer cleared
+[15:55:41][TestSuiteKw][INFO] Test case 'Test přijímání zpráv 2' starts executing now
+[15:55:41][TelnetServer][INFO] (tel-server-1) Message send: This is message from server 1
+[15:55:41][WaitKw][INFO] Waiting: 400 ms
+[15:55:41][TelnetServer][INFO] (tel-server-1) Message send: Next message
+[15:55:41][WaitKw][INFO] Waiting: 900 ms
+[15:55:42][NATTContext][INFO] Data has been stored in to the variable 'var-1'. Data value: 
+[15:55:42][NATTContext][INFO] Data has been stored in to the variable 'var-2'. Data value: 
+[15:55:42][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable '' must equals expected text 'This is message from server 1')
+[15:55:42][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable '' must equals expected text 'Next message')
+[15:55:42][TestSuiteKw][ERROR] Test suite 'Testování přijímání zpráv' - Test case 'Test přijímání zpráv 2' failed
+[15:55:42][MessageBuffer][INFO] Message buffer cleared
+[15:55:43][MessageBuffer][INFO] Message buffer cleared
+[15:55:43][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar app/build/libs/app.jar localhost 9999
+[15:55:43][ProcessManager][INFO] New PID (8688) added to file
+[15:55:43][WaitKw][INFO] Waiting: 200 ms
+[15:55:43][ProcessManager][INFO] PID (8688) removed from file
+[15:55:43][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[15:55:43][ExternalProgramRunner][WARNING] (default) Error message from external application: Error: Unable to access jarfile app/build/libs/app.jar
+
+[15:55:44][TestSuiteKw][INFO] Test case 'Test ukončení' starts executing now
+[15:55:44][ExternalProgramRunner][WARNING] (default) Failed to send data. External app is not running now!
+[15:55:44][WaitKw][INFO] Waiting: 1000 ms
+[15:55:45][TestSuiteKw][ERROR] Test suite 'Test příkazu pro ukončení' - Test case 'Test ukončení' failed
+[15:55:45][MessageBuffer][INFO] Message buffer cleared
+[15:55:45][MessageBuffer][INFO] Message buffer cleared
+[15:55:45][MessageBuffer][INFO] Message buffer cleared
+[15:55:45][TelnetServer][INFO] (tel-server-1) Telnet server [tel-server-1] terminated
+[15:55:45][NATTCore][INFO] Test executing finished
+[15:55:45][TelnetServer][INFO] (tel-server-1) Server socket closed
+[15:55:45][NATTCore][INFO] Start generating test report
+[15:55:46][TestReportGenerator][INFO] Report saved to file
+[15:55:46][NATTCore][WARNING] Failed test cases: "Test odeslání zprávy 1", "Test odeslání zprávy 2", "Test odeslání zprávy 3", "Test přijímání zpráv 1", "Test přijímání zpráv 2", "Test ukončení"
+[15:55:46][NATTCore][INFO] Final score: 0,000000
+[15:55:46][NATTCore][ERROR] Testing done. Leaving status: FAILED
